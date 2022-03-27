@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a href="" class="logo">
+                <img src="img/Logo.svg" alt="flowers logo">
+            </a>
+            <button class="header__button">Форма</button>
+        </div>
+    </header>
+    <main>
+        <section class="services">
+            <div class="container">
+                <ul class="services__list">
+                    <li class="services__item">
+                        <div class="services__item__block">
+                            <img src="img/fast.svg" alt="">
+                            <h3 class="services__title">Fast <br> Delivery</h3>
+                        </div>
+                        <p class="services__text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
+                        </p>
+                    </li>
+                    <li class="services__item">
+                        <div class="services__item__block">
+                            <img src="img/headphones.svg" alt="">
+                            <h3 class="services__title">Great Customer <br> Service</h3>
+                        </div>
+                        <p class="services__text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
+                        </p>
+                    </li>
+                    <li class="services__item">
+                        <div class="services__item__block">
+                            <img src="img/plant.svg" alt="">
+                            <h3 class="services__title">Original <br> Plants</h3>
+                        </div>
+                        <p class="services__text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
+                        </p>
+                    </li>
+                    <li class="services__item">
+                        <div class="services__item__block">
+                            <img src="img/dollar.svg" alt="">
+                            <h3 class="services__title">Affordable <br> Price</h3>
+                        </div>
+                        <p class="services__text">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard 
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="favorites">
+            <div class="container">
+                <div class="favorites__block">
+                    <h2 class="favorites__title">Featured Plants</h2>
+                    <select class="favorites__select">
+                        <option class="tabs__btn tabs__btn--default" data-path="one" selected>Cheaper First</option>
+                        <option class="tabs__btn" data-path="two">expensive</option>
+                    </select>
+                </div>
+                <hr>
+                <div class="tab-content tab-content-active" data-target="one"> 
+                    <ul class="favorites__list">
+                        <li class="favorites__item">
+                            <img src="img/Mask.png" alt="">
+                            <p class="favorites__text">Kaktus Plants</p>
+                            <span class="favorites__span">IDR 85.000</span>
+                        </li>
+                        <li class="favorites__item">
+                            <img src="img/Mask2.png" alt="">
+                            <p class="favorites__text">Landak Plants</p>
+                            <span class="favorites__span">IDR 105.000</span>
+                        </li>
+                        <li class="favorites__item">
+                            <img src="img/Mask3.png" alt="">
+                            <p class="favorites__text">Kecubung Plants</p>
+                            <span class="favorites__span">IDR 85.000</span>
+                        </li>
+                        <li class="favorites__item">
+                            <img src="img/Mask4.png" alt="">
+                            <p class="favorites__text">Kecubung Plants</p>
+                            <span class="favorites__span">IDR 85.000</span>
+                        </li>
+                        <li class="favorites__item">
+                            <img src="img/Mask5.png" alt="">
+                            <p class="favorites__text">Kecubung Plants</p>
+                            <span class="favorites__span">IDR 85.000</span>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+                <div class="tab-content" data-target="two"> 
+                    <ul class="favorites__list">
+                        <!-- <li class="favorites__item">
+                            <img src="img/Mask.png" alt="">
+                            <p class="favorites__text">Kaktus Plants</p>
+                            <span class="favorites__span">IDR 85.000</span>
+                        </li> -->
+                        <li class="favorites__item">
+                            <img src="img/Mask2.png" alt="">
+                            <p class="favorites__text">Landak Plants</p>
+                            <span class="favorites__span">IDR 105.000</span>
+                        </li>
+                        <li class="favorites__item">
+                            <img src="img/Mask3.png" alt="">
+                            <p class="favorites__text">Kecubung Plants</p>
+                            <span class="favorites__span">IDR 85.000</span>
+                        </li>
+                        <li class="favorites__item">
+                            <img src="img/Mask4.png" alt="">
+                            <p class="favorites__text">Kecubung Plants</p>
+                            <span class="favorites__span">IDR 85.000</span>
+                        </li>
+                        <li class="favorites__item">
+                            <img src="img/Mask5.png" alt="">
+                            <p class="favorites__text">Kecubung Plants</p>
+                            <span class="favorites__span">IDR 85.000</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="../flowers/js/tabs.js"></script>
+</body>
+</html>
