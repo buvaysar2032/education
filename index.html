@@ -64,13 +64,13 @@
             <div class="container">
                 <div class="favorites__block">
                     <h2 class="favorites__title">Featured Plants</h2>
-                    <select class="favorites__select">
-                        <option class="tabs__btn tabs__btn--default" data-path="one" selected>Cheaper First</option>
-                        <option class="tabs__btn" data-path="two">expensive</option>
+                    <select id="a_background" >
+                        <option value="1" class="tabs__btn" data-path="one">Cheaper First</option>
+                        <option value="2" class="tabs__btn" data-path="two">expensive</option>
                     </select>
                 </div>
                 <hr>
-                <div class="tab-content tab-content-active" data-target="one"> 
+                <div class="tab-content tab-content-active" data-target="one">
                     <ul class="favorites__list">
                         <li class="favorites__item">
                             <img src="img/Mask.png" alt="">
@@ -102,7 +102,7 @@
 
 
 
-                <div class="tab-content" data-target="two"> 
+                <div class="tab-content" data-target="two">
                     <ul class="favorites__list">
                         <!-- <li class="favorites__item">
                             <img src="img/Mask.png" alt="">
