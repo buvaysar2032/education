@@ -67,10 +67,10 @@ a {
 }
 
 .header {
-    /* position: absolute;
+    position: absolute;
     left: 0;
-    top: 0; */
-    padding: 40px 0;
+    top: 0;
+    padding-top: 40px;
     width: 100%;
 }
 
@@ -88,6 +88,19 @@ a {
     color: #FFFFFF;
     padding: 8px 32px;
     border: none;
+}
+
+/* hero */
+
+.hero__container {
+    width: 1280px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.hero__img {
+    background: url(../img/pexels.png) no-repeat;
+    height: 740px;
 }
 
 /* services */
@@ -179,9 +192,9 @@ a {
     color: #000000;
 }
 
-.tab-content {
-	display: none;
+.tab {
+    display: none;
 }
-.tab-content-active {
-	display: block;
+.tab.active {
+    display: block;
 }
