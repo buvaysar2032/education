@@ -1,7 +1,7 @@
 const fetchForm = document.querySelector('.form')
 
-
-fetchForm.addEventListener('submit', () => {
+fetchForm.addEventListener('submit', (e) => {
+    e.preventDefault();
     fetch('https://jsonplaceholder.typicode.com/todos', {
         method: 'GET'
     })
